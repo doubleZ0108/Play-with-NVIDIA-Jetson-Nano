@@ -1,6 +1,4 @@
 # 切换python版本
-#创乐 Invix/Linux#
-
 前提条件：
 1. linux已经安装好多个版本的python 如2.7 & 3.6
 2. linux为Debian系
