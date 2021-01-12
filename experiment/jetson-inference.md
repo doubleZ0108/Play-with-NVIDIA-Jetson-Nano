@@ -1,4 +1,4 @@
-# jetson-inference
+# Nano跑通jetson-inference
 
 > 📦Github Repo
 >  [GitHub - dusty-nv/jetson-inference: Hello AI World guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.](https://github.com/dusty-nv/jetson-inference)

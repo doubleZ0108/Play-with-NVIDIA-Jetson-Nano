@@ -1,4 +1,4 @@
-# 环境配置
+# 从零开始配置NVIDIA Jetson Nano(踩坑史)
 
 [toc]
 
@@ -13,6 +13,8 @@
 > 具体流程参考：[Jetson Nano 开发者套件入门 | NVIDIA Developer](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
 > 
 3. 连接外设(鼠标、键盘、显示器)并启动
+
+   ![](https://doublez-site-bed.oss-cn-shanghai.aliyuncs.com/img/20210112173123.png)
 
 <br/>
 
@@ -29,10 +31,19 @@
 ## 摄像机
 
 [菜鸟手册（2）：给Jetson Nano安装树莓派摄像头](https://mp.weixin.qq.com/s?__biz=MjM5NTE3Nzk4MQ==&mid=2651234579&idx=1&sn=7f10f030e9c60b15c6805fa1ea495347&chksm=bd0e75818a79fc977693c16d7eb4dd87709eab82542687208d5ba34cfcc877a2da68ab6a106b&scene=21#wechat_redirect)
-一系列摄像头玩法：[GitHub - JetsonHacksNano/CSI-Camera: Simple example of using a CSI-Camera (like the Raspberry Pi Version 2 camera) with the NVIDIA Jetson Nano Developer Kit](https://github.com/JetsonHacksNano/CSI-Camera)
+
 ```bash
 gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM),width=3820, height=2464, framerate=21/1, format=NV12' ! nvvidconv flip-method=0 ! 'video/x-raw,width=960, height=616' ! nvvidconv ! nvegltransform ! nveglglessink -e
 ```
+
+一系列摄像头玩法：[GitHub - JetsonHacksNano/CSI-Camera: Simple example of using a CSI-Camera (like the Raspberry Pi Version 2 camera) with the NVIDIA Jetson Nano Developer Kit](https://github.com/JetsonHacksNano/CSI-Camera)
+
+```bash
+python simple_camera.py
+python face_detection.py
+```
+
+![](https://doublez-site-bed.oss-cn-shanghai.aliyuncs.com/img/20210112173220.png)
 
 <br/>
 
@@ -46,6 +57,15 @@ gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM),width=3820, height=2
 ```bash
 sudo init 3     # 关闭桌面
 sudo init 5     # 重启桌面
+```
+
+<br/>
+
+## 下载软件
+⚠️注意Nano是arm64体系架构，安装软件时要选清楚版本
+```bash
+# 安装deb文件
+sudo dpkg -i xxx.deb
 ```
 
 <br/>
