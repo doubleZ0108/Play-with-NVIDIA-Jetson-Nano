@@ -6,7 +6,8 @@
 
 ## 文档 | Document
 
-- [NVIDIA Jetson Nano从0开始配置环境](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/setup/setup.md)
+- [从零开始配置NVIDIA Jetson Nano(踩坑史)](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/setup/setup.md)
+- [JetPack — 边缘计算设备构建AI应用全面解决方案](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/doc/jetpack.md)
 - 
 
 <br/>
@@ -15,6 +16,7 @@
 
 - [Jetson Nano 使用Yolov3进行目标检测](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/experiment/yolov3.md)
 - [Jetson Nano边缘计算最佳实践：jetson-inference](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/experiment/jetson-inference.md)
+- [Jetson Nano使用TensorRT加速yolov3-tiny目标识别](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/experiment/trt-yolov3.md)
 - 
 
 <br/>

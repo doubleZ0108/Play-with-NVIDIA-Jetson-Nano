@@ -16,7 +16,7 @@ sudo apt-get install protobuf-compiler libprotoc-dev
 ```bash
 sudo pip3 install Pillow
 ```
-- 安装pycuda：如果下述脚本无法安装，请看[[Jetson Nano安装pycuda(踩坑传)]]
+- 安装pycuda：如果下述脚本无法安装，请看[Jetson Nano安装pycuda(踩坑传)](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/doc/pycuda.md)
 ```bash
 export PATH=/usr/local/cuda/bin:\${PATH}
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:\${LD_LIBRARY_PATH}
@@ -33,8 +33,8 @@ sudo pip3 install numpy
 > 📦[Github: TRT-yolov3](https://github.com/yqlbu/TRT-yolov3)
 
 1. 下载配置文件和权重文件到`TRT-yolov3/yolov3_onnx/`中
-	1. [https://objectstorage.ca-toronto-1.oraclecloud.com/n/yzpqsgba6ssd/b/bucket-20200425-1646-weights/o/yolov3-tiny.cfg](https://objectstorage.ca-toronto-1.oraclecloud.com/n/yzpqsgba6ssd/b/bucket-20200425-1646-weights/o/yolov3-tiny.cfg) 
-	2. [https://hidden-boat-623a.keviny-cloud.workers.dev/DeepLearning/yolov3-weights/yolov3-tiny.weights](https://hidden-boat-623a.keviny-cloud.workers.dev/DeepLearning/yolov3-weights/yolov3-tiny.weights) 
+	- [https://objectstorage.ca-toronto-1.oraclecloud.com/n/yzpqsgba6ssd/b/bucket-20200425-1646-weights/o/yolov3-tiny.cfg](https://objectstorage.ca-toronto-1.oraclecloud.com/n/yzpqsgba6ssd/b/bucket-20200425-1646-weights/o/yolov3-tiny.cfg) 
+	- [https://hidden-boat-623a.keviny-cloud.workers.dev/DeepLearning/yolov3-weights/yolov3-tiny.weights](https://hidden-boat-623a.keviny-cloud.workers.dev/DeepLearning/yolov3-weights/yolov3-tiny.weights) 
 > 也可以使用`TRT-yolov3/yolov3_onnx/download.sh`进行下载 或 查看该文件有选择性的下载（你懂的，异常缓慢，记得自己找办法加速，我帮你找好了两个）
 2. 修改`download.sh`文件，只保留如下部分，执行该脚本`sudo ./download.sh`
 ```shell
