@@ -21,3 +21,9 @@ Options:
 -v           Viewports example
 -i           Interaction Customization example
 ```
+
+<img src="../../README.assets/PCL/pcd-visualizer-demo-a.png" alt="pcd-visualizer-demo-a" width="67%;" />
+
+<img src="../../README.assets/PCL/pcd-visualizer-demo-r.png" alt="pcd-visualizer-demo-r" width="67%;" />
+
+<img src="../../README.assets/PCL/pcd-visualizer-demo-v.png" alt="pcd-visualizer-demo-v" width="67%;" />

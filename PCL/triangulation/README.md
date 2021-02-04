@@ -17,3 +17,7 @@ viewer->setRepresentationToPointsForAllActors(); //网格模型以点形式显�
 viewer->setRepresentationToWireframeForAllActors();  //网格模型以线框图模式显示
         
 ```
+
+<img src="../../README.assets/PCL/triangulation-surface.png" alt="triangulation-surface" width="67%;" />
+
+<img src="../../README.assets/PCL/triangulation-wireframe.png" alt="triangulation-wireframe" width="67%;" />

@@ -12,3 +12,5 @@ make
 # run
 ./cloud_viewer
 ```
+
+<img src="../../README.assets/PCL/cloud-viewer.png" alt="cloud-viewer" width="67%;" />
