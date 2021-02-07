@@ -54,10 +54,6 @@ void cloudVisualization(pcl::PointCloud<pcl::PointXYZRGB>::Ptr pointcloud_in)
     // save reconstruction result on the disk
     // pcl::io::saveVTKFile("mymesh.vtk", triangles);
 
-    // Additional vertex information
-    std::vector<int> parts = gp3.getPartIDs();
-    std::vector<int> states = gp3.getPointStates();
-
 
     /* Visualization */
     boost::shared_ptr<pcl::visualization::PCLVisualizer> viewer(new pcl::visualization::PCLVisualizer("3D Viewer"));
