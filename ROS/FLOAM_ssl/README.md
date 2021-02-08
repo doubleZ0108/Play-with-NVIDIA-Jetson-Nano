@@ -46,12 +46,12 @@
 
 ### 如何修改并运行
 主要修改 `src/octoMappingNode.cpp`文件
-修改完切换到`catkin_wk/`下，执行 [FLOAM_ssl/run.sh](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/PCL/FLOAM_sslrun.sh)  脚本重新编译并运行
+修改完切换到`catkin_wk/`下，执行 [FLOAM_ssl/run.sh](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/ROS/FLOAM_sslrun.sh)  脚本重新编译并运行
 
 
 
 ### 整合点云三角化代码
-将[FLOAM_ssl/cloud_visualization.cpp](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/PCL/FLOAM_ssl/cloud_visualization.cpp) 放入`src/octoMappingNode.cpp`文件，重新编译运行
+将[FLOAM_ssl/cloud_visualization.cpp](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/ROS/FLOAM_ssl/cloud_visualization.cpp) 放入`src/octoMappingNode.cpp`文件，重新编译运行
 
 #### 基本步骤
 1. 将原始PointXYZRGB 格式转化为PointXYZ（暂时去除了颜色数据）
