@@ -1,4 +1,4 @@
-# FLOAM_ssl
+# FLOAM_ssl整合点云重建定制化
 
 [toc]
 
@@ -46,7 +46,7 @@
 
 ### 如何修改并运行
 主要修改 `src/octoMappingNode.cpp`文件
-修改完切换到`catkin_wk/`下，执行 [FLOAM_ssl/run.sh](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/ROS/FLOAM_sslrun.sh)  脚本重新编译并运行
+修改完切换到`catkin_wk/`下，执行 [FLOAM_ssl/run.sh](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/ROS/FLOAM_ssl/run.sh)  脚本重新编译并运行
 
 
 

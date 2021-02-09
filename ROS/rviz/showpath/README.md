@@ -32,7 +32,7 @@ sudo gedit /opt/ros/kinetic/bin/catkin_make
 
 ## 编译和运行
 
-1. 编写主函数：在`showpath/src/`中创建[showpath.cpp](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/ROS/rviz-showpath/showpath.cpp)
+1. 编写主函数：在`showpath/src/`中创建[showpath.cpp](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/ROS/rviz/showpath/showpath.cpp)
 2. 编辑`CMakeLists.txt`: 在`showpath/CMakeLists.txt`最后增加两行
 ```bash
 add_executable(showpath src/showpath.cpp)
