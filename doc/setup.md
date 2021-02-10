@@ -1,6 +1,13 @@
 # 从零开始配置NVIDIA Jetson Nano(踩坑史)
 
-[toc]
+* [烧录](#烧录)
+* [供电](#供电)
+* [摄像机](#摄像机)
+* [软件环境](#软件环境)
+* [下载软件](#下载软件)
+* [Resources](#resources)
+
+------
 
 ## 烧录
 1. 下载[Jetson 下载中心 | NVIDIA Developer](https://developer.nvidia.com/zh-cn/embedded/downloads)并解压得到镜像文件`sd-blob.img`

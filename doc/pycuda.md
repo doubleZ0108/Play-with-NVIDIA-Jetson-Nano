@@ -1,5 +1,8 @@
 # Jetson Nano安装pycuda(踩坑传)
-[toc]
+* [脚本自动安装](#脚本自动安装)
+* [手动安装](#手动安装)
+* [验证pycuda是否安装成功](#验证pycuda是否安装成功)
+* [Resources](#resources)
 
 ------
 
