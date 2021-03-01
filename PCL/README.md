@@ -24,11 +24,12 @@
 
 
 ## ply可视化
-[ply可视化实例](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/tree/master/PCL/ply_transformer_demo)
-> 读取.ply功能正常，显示ply点云暂时有问题未解决
-> 网上的运行效果
->
-> <img src="../README.assets/PCL/ply-demo.png" alt="ply-demo" width="67%;" />
+1. [读取ply文件](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/tree/master/PCL/ply_transformer_demo)
+	> 读取.ply功能正常，显示ply点云暂时有问题未解决
+	> <img src="../README.assets/PCL/ply-demo.png" alt="ply-demo" width="67%;" />
+
+2. [ply文件三角化](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/PCL/model_transformer/model_transformer.cpp)
+
 
 ## 曲面重建｜三角化
 [曲面重建实例](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/tree/master/PCL/triangulation)
