@@ -79,7 +79,8 @@ roscore
 rosrun turtlesim turtlesim_node
 rosrun turtlesim turtle_teleop_key
 ```
-![5ED89D1C-F770-4AF8-A132-ABADE350020D](../README.assets/ROS/5ED89D1C-F770-4AF8-A132-ABADE350020D.png)
+
+<div align="center"><img src="../README.assets/ROS/5ED89D1C-F770-4AF8-A132-ABADE350020D.png" width="50%"/></div>
 
 ## Resources
 - 基础步骤：[教學 在Jetson Nano上安裝 ROS 系統 ~ 魔人日誌](http://roboardgod.blogspot.com/2019/05/jetson-nano-ros.html)
