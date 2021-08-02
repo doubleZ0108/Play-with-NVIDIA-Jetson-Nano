@@ -1,4 +1,4 @@
-# Linux配置S-PTAM环境并运行
+# Linux配置S-PTAM环境
 #创乐 Invix/ROS#
 
 > 官方repo：[GitHub - lrse/sptam: S-PTAM: Stereo Parallel Tracking and Mapping](https://github.com/lrse/sptam#installation)
@@ -37,7 +37,3 @@ sudo make install
 【报错：**fatal error:**opencv2/xfeatures2d.hpp: No such file or directory】
 opencv由于部分有版权问题，因此直接安装opencv后使用过程中会遇到一些文件找不到
 解决方案：[[Linux安装opencv和opencv_contrib]]
-
-<br/>
-
-## 运行
