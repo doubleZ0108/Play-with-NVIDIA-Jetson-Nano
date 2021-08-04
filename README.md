@@ -39,7 +39,7 @@
 
 ### 配置文档
 
-- [从零开始配置NVIDIA Jetson Nano(踩坑史)](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/setup/setup.md)
+- [从零开始配置NVIDIA Jetson Nano(踩坑史)](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/doc/setup.md)
 - [JetPack — 边缘计算设备构建AI应用全面解决方案](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/doc/jetpack.md)
 - [Jetson Nano安装pycuda(踩坑传)](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/doc/pycuda.md)
 - [Jetson Nano边缘计算最佳实践：jetson-inference](https://github.com/doubleZ0108/Play-with-NVIDIA-Jetson-Nano/blob/master/experiment/jetson-inference.md)
